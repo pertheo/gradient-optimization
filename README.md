@@ -1,3 +1,7 @@
+# Specification
+program written in Python3+
+used modules: scipy, numpy, numdifftools, time, random
+
 # Assignment description 
  
 Write a program that minimizes a function 𝐽: 𝑅! → 𝑅 using two gradient-based methods. The optimized function should have the following form: 	𝐽(𝑥) = 𝑐 + 𝑏"𝑥 + 𝑥"𝐴𝑥 where 𝑐 is a scalar number, 𝑏 is a d-dimensional real vector, and A is a positive–definite matrix – all parameters are specified by the user. 
