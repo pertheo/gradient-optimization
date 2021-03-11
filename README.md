@@ -1,5 +1,6 @@
 # Specification
 program written in Python3+
+
 used modules: scipy, numpy, numdifftools, time, random
 
 # Assignment description 
