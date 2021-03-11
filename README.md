@@ -1,7 +1,9 @@
-# Specification
-program written in Python3+
+Made by Paulina Markiewicz and Sundus Maria Abu Hasan
 
-used modules: scipy, numpy, numdifftools, time, random
+# Specification
+Program written in Python3+
+
+Used modules: scipy, numpy, numdifftools, time, random
 
 # Assignment description 
  
