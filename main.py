@@ -82,8 +82,7 @@ def get_random_vector(d,l,r):
 def batch_mode(f,x,j,n):#given
     list=[]
     listy=[]
-    for c in range(n):
-        print(c)
+    for p in range(n):
         t,u=f(x,j,max_iter,max_time)
         list.append(t)
         listy.append(u)
@@ -95,7 +94,7 @@ def batch_mode(f,x,j,n):#given
 def batch_mode_rand(f,j,n,l,r):#random
     list=[]
     listy=[]
-    for c in range(n):
+    for p in range(n):
         x=get_random_vector(d,l,r)
         t,u=f(x,j,max_iter,max_time)
         list.append(t)
@@ -143,7 +142,7 @@ while t!=1 and t!=2:
         beta=float(input("Enter beta (float): "))
         
 ch=input("Do you want to enter batch mode? (yes/no) ")
-if ch=='yes' or c=='Yes':
+if ch=='yes' or ch=='Yes':
     n=int(input("How many iterations do you want to perform? "))
     if k==1:
         if t==1:
@@ -156,7 +155,7 @@ if ch=='yes' or c=='Yes':
             batch_mode(simp, x,j,n)
         else:
             batch_mode(newton, x, j, n)
-elif ch=='no' or c=='No':
+elif ch=='no' or ch=='No':
     if t==1:
         sx,yx=simp(x,j,max_iter,max_time)
         print("Simple gradient method: ",sx,"\nJ(x): ",yx)
