@@ -1,5 +1,3 @@
-Made by Paulina Markiewicz and Sundus Maria Abu Hasan
-
 # Specification
 Program written in Python3+
 
